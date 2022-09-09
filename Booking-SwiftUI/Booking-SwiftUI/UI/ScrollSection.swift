@@ -8,9 +8,10 @@
 import SwiftUI
 
 struct ScrollSection: View {
-    @State var title = "Now Playing"
-    @State var posters: [String] = ["poster1", "poster2", "poster3", "poster4", "poster5", "poster6"]
+    @State var title: String = "Now Playing"
     
+    @State var posters: [String] = ["poster1", "poster2", "poster3", "poster4", "poster5", "poster6"]
+        
     var body: some View {
         VStack(alignment: .leading) {
             Text(title)
@@ -21,14 +22,13 @@ struct ScrollSection: View {
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack(spacing: 20.0) {
                     ForEach(posters.indices, id: \.self) { index in
-                        NavigationLink{
-                            Text("Book")
-                        }label: {
+                        NavigationLink {
+                            BookingView()
+                        } label: {
                             Image(posters[index])
                                 .resizable()
                                 .frame(width: 100, height: 130)
                                 .cornerRadius(20)
-                            
                         }
                     }
                 }
