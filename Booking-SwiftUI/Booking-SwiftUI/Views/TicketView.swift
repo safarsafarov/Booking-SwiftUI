@@ -10,13 +10,21 @@ import SwiftUI
 struct TicketView: View {
     var body: some View {
         ZStack {
+            CircleBackground(color: Color("greenCircle"))
+                .blur(radius: 100)
+                .offset(x: -130, y: -100)
+            
+            CircleBackground(color: Color("pinkCircle"))
+                .blur(radius: 100)
+                .offset(x: -130, y: -100)
+            
             VStack(spacing: 30.0) {
                 Text("Mobile Ticket")
                     .font(.title3)
                     .foregroundColor(.white)
                     .fontWeight(.bold)
                 
-                Text("")
+                Text("Once you buy a movie ticket simply scan the barcode to access to your movie.")
             }
             .padding(.horizontal, 20)
             .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)

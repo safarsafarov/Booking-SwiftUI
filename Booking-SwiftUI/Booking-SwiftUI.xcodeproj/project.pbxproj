@@ -20,7 +20,6 @@
 		8BDC23F628CA8E33000C915C /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDC23F528CA8E33000C915C /* CircleButton.swift */; };
 		8BDC23F828CA8E39000C915C /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDC23F728CA8E39000C915C /* RoundButton.swift */; };
 		8BDC23F928CA8F20000C915C /* Booking_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDC23D328CA8B8E000C915C /* Booking_SwiftUIApp.swift */; };
-		8BDC23FB28CA9026000C915C /* MovieBookingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDC23FA28CA9026000C915C /* MovieBookingApp.swift */; };
 		8BDC23FE28CA90EB000C915C /* TicketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDC23FD28CA90EB000C915C /* TicketView.swift */; };
 /* End PBXBuildFile section */
 
@@ -40,7 +39,6 @@
 		8BDC23F328CA8E2C000C915C /* DateButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateButton.swift; sourceTree = "<group>"; };
 		8BDC23F528CA8E33000C915C /* CircleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
 		8BDC23F728CA8E39000C915C /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
-		8BDC23FA28CA9026000C915C /* MovieBookingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieBookingApp.swift; sourceTree = "<group>"; };
 		8BDC23FD28CA90EB000C915C /* TicketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,17 +72,16 @@
 		8BDC23D228CA8B8E000C915C /* Booking-SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				8BDC23FC28CA90DC000C915C /* Views */,
-				8BDC23F028CA8E17000C915C /* Buttons */,
-				8BDC23EB28CA8D80000C915C /* Data */,
 				8BDC23E628CA8CE4000C915C /* UI */,
+				8BDC23EB28CA8D80000C915C /* Data */,
+				8BDC23F028CA8E17000C915C /* Buttons */,
+				8BDC23FC28CA90DC000C915C /* Views */,
 				8BDC23D328CA8B8E000C915C /* Booking_SwiftUIApp.swift */,
 				8BDC23D528CA8B8E000C915C /* ContentView.swift */,
 				8BDC23D728CA8B90000C915C /* Assets.xcassets */,
-				8BDC23D928CA8B90000C915C /* Booking_SwiftUI.entitlements */,
 				8BDC23DA28CA8B90000C915C /* Preview Content */,
 				8BDC23E228CA8CAC000C915C /* utils.swift */,
-				8BDC23FA28CA9026000C915C /* MovieBookingApp.swift */,
+				8BDC23D928CA8B90000C915C /* Booking_SwiftUI.entitlements */,
 			);
 			path = "Booking-SwiftUI";
 			sourceTree = "<group>";
@@ -207,7 +204,6 @@
 				8BDC23F828CA8E39000C915C /* RoundButton.swift in Sources */,
 				8BDC23FE28CA90EB000C915C /* TicketView.swift in Sources */,
 				8BDC23E328CA8CAC000C915C /* utils.swift in Sources */,
-				8BDC23FB28CA9026000C915C /* MovieBookingApp.swift in Sources */,
 				8BDC23D628CA8B8E000C915C /* ContentView.swift in Sources */,
 				8BDC23EF28CA8D93000C915C /* PosterData.swift in Sources */,
 				8BDC23ED28CA8D8B000C915C /* TicketData.swift in Sources */,
