@@ -11,6 +11,8 @@ struct Ticket: View {
     @State var title = "Thor"
     @State var subtitle = "Love and Thunder"
     @State var top = "thor-top"
+    @State var bottom = "thor-bottom"
+    @Binding var height: CGFloat
     
     var gradient = [Color("cyan"), Color("cyan").opacity(0), Color("cyan").opacity(0)]
     
@@ -40,6 +42,8 @@ struct Ticket: View {
                     .stroke(LinearGradient(colors: gradient, startPoint: .topLeading, endPoint: .bottomTrailing), style: StrokeStyle(lineWidth: 2))
             }
             .cornerRadius(40, corners: [.topLeft, .topRight])
+            
+            Spacer()
             
             VStack(spacing: 10.0) {
                 Line()
@@ -79,6 +83,19 @@ struct Ticket: View {
                 }
                 Image("code")
             }
+            .frame(width: 250, height: 135, alignment: .top)
+            .background(.ultraThinMaterial)
+            .background(
+                Image(bottom)
+                    .resizable()
+                    .aspectRatio(contentMode: .fill)
+            )
+            .mask(
+                Image(bottom)
+                    .resizable()
+                    .aspectRatio(contentMode: .fill)
+            )
+            
         }
         .frame(height: 460)
         .font(.footnote)
@@ -88,6 +105,6 @@ struct Ticket: View {
 
 struct Ticket_Previews: PreviewProvider {
     static var previews: some View {
-        Ticket()
+        Ticket(height: .constant(0))
     }
 }
