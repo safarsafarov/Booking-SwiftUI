@@ -14,6 +14,7 @@
 		8BA58ABE28CBD8BE00DF0BDF /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA58ABD28CBD8BE00DF0BDF /* HomeView.swift */; };
 		8BA58AC028CBD98D00DF0BDF /* CustomSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA58ABF28CBD98D00DF0BDF /* CustomSearchBar.swift */; };
 		8BA58AC228CBDB0D00DF0BDF /* ScrollSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA58AC128CBDB0D00DF0BDF /* ScrollSection.swift */; };
+		8BA58AC428CBDD3F00DF0BDF /* BookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA58AC328CBDD3F00DF0BDF /* BookingView.swift */; };
 		8BDC23D628CA8B8E000C915C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDC23D528CA8B8E000C915C /* ContentView.swift */; };
 		8BDC23D828CA8B90000C915C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BDC23D728CA8B90000C915C /* Assets.xcassets */; };
 		8BDC23DC28CA8B90000C915C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BDC23DB28CA8B90000C915C /* Preview Assets.xcassets */; };
@@ -38,6 +39,7 @@
 		8BA58ABD28CBD8BE00DF0BDF /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		8BA58ABF28CBD98D00DF0BDF /* CustomSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSearchBar.swift; sourceTree = "<group>"; };
 		8BA58AC128CBDB0D00DF0BDF /* ScrollSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollSection.swift; sourceTree = "<group>"; };
+		8BA58AC328CBDD3F00DF0BDF /* BookingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingView.swift; sourceTree = "<group>"; };
 		8BDC23D028CA8B8E000C915C /* Booking-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Booking-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BDC23D328CA8B8E000C915C /* Booking_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Booking_SwiftUIApp.swift; sourceTree = "<group>"; };
 		8BDC23D528CA8B8E000C915C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -156,6 +158,7 @@
 			children = (
 				8BDC23FD28CA90EB000C915C /* TicketView.swift */,
 				8BA58ABD28CBD8BE00DF0BDF /* HomeView.swift */,
+				8BA58AC328CBDD3F00DF0BDF /* BookingView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -234,6 +237,7 @@
 				8BA58ABA28CBD13000DF0BDF /* TabData.swift in Sources */,
 				8BDC23FE28CA90EB000C915C /* TicketView.swift in Sources */,
 				8BDC23E328CA8CAC000C915C /* utils.swift in Sources */,
+				8BA58AC428CBDD3F00DF0BDF /* BookingView.swift in Sources */,
 				8BA58ABC28CBD34100DF0BDF /* CustomTabBar.swift in Sources */,
 				8BA58ABE28CBD8BE00DF0BDF /* HomeView.swift in Sources */,
 				8BDC23D628CA8B8E000C915C /* ContentView.swift in Sources */,
