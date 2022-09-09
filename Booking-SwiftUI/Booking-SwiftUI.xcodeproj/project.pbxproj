@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8BA58AB628CBA5B000DF0BDF /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA58AB528CBA5B000DF0BDF /* Ticket.swift */; };
 		8BDC23D628CA8B8E000C915C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDC23D528CA8B8E000C915C /* ContentView.swift */; };
 		8BDC23D828CA8B90000C915C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BDC23D728CA8B90000C915C /* Assets.xcassets */; };
 		8BDC23DC28CA8B90000C915C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BDC23DB28CA8B90000C915C /* Preview Assets.xcassets */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8BA58AB528CBA5B000DF0BDF /* Ticket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
 		8BDC23D028CA8B8E000C915C /* Booking-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Booking-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BDC23D328CA8B8E000C915C /* Booking_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Booking_SwiftUIApp.swift; sourceTree = "<group>"; };
 		8BDC23D528CA8B8E000C915C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +55,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8BA58AB428CBA58B00DF0BDF /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				8BA58AB528CBA5B000DF0BDF /* Ticket.swift */,
+			);
+			path = Cards;
+			sourceTree = "<group>";
+		};
 		8BDC23C728CA8B8D000C915C = {
 			isa = PBXGroup;
 			children = (
@@ -72,6 +82,7 @@
 		8BDC23D228CA8B8E000C915C /* Booking-SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				8BA58AB428CBA58B00DF0BDF /* Cards */,
 				8BDC23E628CA8CE4000C915C /* UI */,
 				8BDC23EB28CA8D80000C915C /* Data */,
 				8BDC23F028CA8E17000C915C /* Buttons */,
@@ -207,6 +218,7 @@
 				8BDC23D628CA8B8E000C915C /* ContentView.swift in Sources */,
 				8BDC23EF28CA8D93000C915C /* PosterData.swift in Sources */,
 				8BDC23ED28CA8D8B000C915C /* TicketData.swift in Sources */,
+				8BA58AB628CBA5B000DF0BDF /* Ticket.swift in Sources */,
 				8BDC23F228CA8E26000C915C /* TimeButton.swift in Sources */,
 				8BDC23E828CA8CF4000C915C /* CircleBackground.swift in Sources */,
 				8BDC23F928CA8F20000C915C /* Booking_SwiftUIApp.swift in Sources */,
